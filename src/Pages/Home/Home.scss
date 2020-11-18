@@ -1,0 +1,50 @@
+.content-header-container {
+  display: flex;
+
+  .content-header {
+    flex: 1;
+    padding: 10% 0% 3% 15%;
+
+    .title {
+      margin: 0;
+    }
+    .paragraph {
+      font-size: 12px;
+    }
+
+    .requestButton {
+      margin-top: 5%;
+    }
+  }
+
+  .sideImage {
+    overflow-y: hidden;
+    flex: 1.2;
+
+    // height: 100vh;
+    // background-image: url(../../images/bg-intro-desktop.svg);
+    // background-size: contain;
+    // background-repeat: no-repeat;
+
+    .b-image {
+      // overflow-y: hidden;
+      // overflow-x: hidden;
+      position: absolute;
+      width: 60%;
+      height: 125%;
+      top: -15%;
+      left: 50%;
+      z-index: -1;
+    }
+    .s-image {
+      // overflow-y: hidden;
+      // overflow-x: hidden;
+      position: absolute;
+      width: 50%;
+      height: 130%;
+      top: -3%;
+      left: 58.5%;
+      z-index: -1;
+    }
+  }
+}
