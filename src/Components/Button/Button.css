@@ -1,0 +1,13 @@
+.custom-button {
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  color: hsl(220, 16%, 96%);
+  border: none;
+  padding: 12px 27px 12px 27px;
+  border-radius: 48px;
+  outline: none;
+}
+
+.custom-button:hover {
+  border: none;
+  cursor: pointer;
+}
