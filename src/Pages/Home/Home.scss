@@ -1,24 +1,29 @@
 .content-header-container {
   display: flex;
+  height: 87.3vh;
+  overflow: hidden;
+  // position: static;
 
   .content-header {
-    flex: 1;
-    padding: 10% 0% 3% 15%;
+    flex: 0.5;
+    padding: 10% 0% 3% 18%;
 
     .title {
       margin: 0;
+      font-size: 35px;
     }
     .paragraph {
-      font-size: 12px;
+      font-size: 13px;
+      margin-top: 9%;
     }
 
     .requestButton {
-      margin-top: 5%;
+      margin-top: 9%;
     }
   }
 
   .sideImage {
-    overflow-y: hidden;
+    // overflow-y: hidden;
     flex: 1.2;
 
     // height: 100vh;
@@ -29,22 +34,78 @@
     .b-image {
       // overflow-y: hidden;
       // overflow-x: hidden;
-      position: absolute;
-      width: 60%;
-      height: 125%;
-      top: -15%;
-      left: 50%;
-      z-index: -1;
+
+      // position: absolute;
+      // width: 60%;
+      // height: 125%;
+      // top: -15%;
+      // left: 50%;
+      // z-index: -1;
+
+      // width: 30%;
+      // position: relative;
+      // z-index: 5;
+      // top: 60px;
+      // left: -100px;
+
+      // width: 140%;
+      // height: 160%;
+      // position: relative;
+      // z-index: 1;
+      // top: -40%;
+      // left: -14%;
+
+      // width: 30%;
+      // position: relative;
+      // z-index: 5;
+      // top: 60px;
+      // left: -100px;
+
+      width: 113%;
+      position: relative;
+      height: 113%;
+      z-index: 5;
+      top: -27%;
+      left: 180px;
     }
     .s-image {
       // overflow-y: hidden;
       // overflow-x: hidden;
-      position: absolute;
-      width: 50%;
-      height: 130%;
-      top: -3%;
-      left: 58.5%;
-      z-index: -1;
+
+      // position: absolute;
+      // width: 50%;
+      // height: 130%;
+      // top: -3%;
+      // left: 58.5%;
+      // z-index: -1;
+
+      // width: 30%;
+      // position: relative;
+      // z-index: 5;
+      // top: 60px;
+      // left: -100px;
+
+      width: 69%;
+      position: relative;
+      z-index: 5;
+      top: -131%;
+      left: 332px;
     }
+  }
+}
+
+.whyChooseUs {
+  padding-left: 18%;
+  padding-right: 7%;
+  background-color: hsl(0, 0%, 98%);
+  padding-bottom: 5%;
+  .easyBank {
+    margin-top: -12.7%;
+    padding-top: 10%;
+  }
+  p {
+    font-size: 14px;
+    justify-content: space-between;
+    margin-top: 2%;
   }
 }
