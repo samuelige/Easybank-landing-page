@@ -6,6 +6,7 @@ import mockups from '../../images/image-mockups.png'
 import backgroundImage from '../../images/bg-intro-desktop.svg'
 import './Home.scss'
 import ContentCard from '../../Components/ContentCard/ContentCard'
+import Article from '../../Components/ArticleCard/ArticleCard'
 
 
 const Home = () => {
@@ -35,7 +36,10 @@ const Home = () => {
                 </p>
                 <ContentCard />
             </div>
-            
+            <div className="article">
+                <h2 className='latest'>Latest Articles</h2>
+                <Article />
+            </div>
         </>
     )
 }

@@ -7,6 +7,7 @@ const contentState = {
     contData : [
         {
             id: uuidv4(),
+            avatarClassName:'cont-1',
             avatar: onlineBank,
             contentTitle:"Online Banking",
             contentParagraph: `Our modern web and mobile 
@@ -16,6 +17,7 @@ const contentState = {
         },
         {
             id: uuidv4(),
+            avatarClassName:'cont-2',
             classname: "text",
             avatar: budget,
             contentTitle: "Simple Budgeting",
@@ -25,6 +27,7 @@ const contentState = {
         },
         {
             id: uuidv4(),
+            avatarClassName:'cont-3',
             classname: "text",
             avatar: onboarding,
             contentTitle: "Fast Onboarding",
@@ -34,6 +37,7 @@ const contentState = {
         },
         {
             id: uuidv4(),
+            avatarClassName:'cont-4',
             classname: "text",
             avatar: openApi,
             contentTitle: "Open Api",

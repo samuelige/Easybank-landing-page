@@ -1,0 +1,41 @@
+.card {
+  .first-image {
+    width: 80%;
+  }
+
+  .sec-image {
+    width: 92%;
+  }
+
+  .third-image,
+  .last-image {
+    width: 88.5%;
+    justify-content: space-around;
+  }
+  .textContainer {
+    background-color: hsl(0, 0%, 100%);
+    padding: 5% 18% 5% 10%;
+
+    h6 {
+      opacity: 55%;
+    }
+
+    h2 {
+      font-size: 15px;
+    }
+
+    h2:hover {
+      color: hsl(136, 65%, 51%);
+      cursor: pointer;
+    }
+
+    p {
+      font-size: 13px;
+      opacity: 75%;
+    }
+  }
+}
+
+.article-card-container {
+  display: flex;
+}
