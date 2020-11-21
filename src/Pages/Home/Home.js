@@ -7,6 +7,7 @@ import backgroundImage from '../../images/bg-intro-desktop.svg'
 import './Home.scss'
 import ContentCard from '../../Components/ContentCard/ContentCard'
 import Article from '../../Components/ArticleCard/ArticleCard'
+import Footer from '../../Components/Footer/Footer'
 
 
 const Home = () => {
@@ -39,6 +40,9 @@ const Home = () => {
             <div className="article">
                 <h2 className='latest'>Latest Articles</h2>
                 <Article />
+            </div>
+            <div className="footer">
+                <Footer />
             </div>
         </>
     )

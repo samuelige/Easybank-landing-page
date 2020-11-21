@@ -6,7 +6,9 @@ import './ArticleCard.scss'
 const ArticleCard = (({id, image, reference, header,text, className}) => {
     return (
         <div className='card'>
-            <img key={id} className={className} src={image} alt=""/>
+            <div className="imageContainer">
+                <img key={id} className={className} src={image} alt=""/>
+            </div>
             <div className="textContainer">
                 <h6>{reference}</h6>
                 <h2>{header}</h2>

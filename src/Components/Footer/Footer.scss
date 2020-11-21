@@ -1,0 +1,43 @@
+.footContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 4% 6% 0px 11%;
+}
+
+.logoAndMediaIcons {
+  .logo-container {
+    margin-bottom: 30%;
+    img {
+    }
+  }
+}
+
+.firstNav,
+.secondNav {
+  margin-top: -20px;
+}
+
+.firstNav > h6:hover,
+.secondNav > h6:hover {
+  color: hsl(136, 65%, 51%);
+  cursor: pointer;
+}
+
+.firstNav > h6 {
+  margin-left: -80%;
+}
+
+.navClass {
+  margin-top: -10px;
+}
+
+.secondNav > h6 {
+  margin-left: -163%;
+}
+
+.requestAndCopyright {
+  footer {
+    margin-top: 18%;
+    font-size: 12px;
+  }
+}
