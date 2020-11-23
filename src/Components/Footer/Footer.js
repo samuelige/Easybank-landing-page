@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../images/logo.svg'
+import footerlogo from '../../images/footerlogo.svg'
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import YouTubeIcon from '@material-ui/icons/YouTube';
@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="footContainer">
             <div className="logoAndMediaIcons">
                 <div className="logo-container">
-                    <img src={logo} className="app__logo" alt="App logo" srcset=""/>
+                    <img src={footerlogo} className="app__logo" alt="App logo" srcset=""/>
                 </div>
                 <div className="mediacons">
                     <FacebookIcon/>
