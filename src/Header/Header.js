@@ -42,20 +42,33 @@ const Header = () => {
     return (
     
             <div className="header">
-                <div className="logo-container">
-                        <img src={logo} className="app__logo" alt="App logo" srcset=""/>
-                </div>
-
-                
-                <DehazeIcon  className='open'  onClick={openDrawerHandler}/> 
                 {
+                    drawerIsOpen ?  
+                    <div className="logo-container">
+                        <img src={logo} className="app__logo" alt="App logo" srcset=""/>
+                    </div>
+                    :
+                    null
+                }
+
+                {drawerIsOpen ? <DehazeIcon className='open'  onClick={openDrawerHandler}/> : <CloseIcon className='close' onClick= {closeDrawerHandler} />}
+                {/* <DehazeIcon  className='open'  onClick={openDrawerHandler}/>  */}
+                {/* {
                     !drawerIsOpen && (
                         <div className='slide' onRequestClose={closeDrawerHandler}>
                             <SlideNavbar />
                             <CloseIcon className='close' onClick= {closeDrawerHandler} />
                         </div>
                     )
+                } */}
+
+                {
+                    !drawerIsOpen && (
+                            <SlideNavbar />
+                    )
+                    // <CloseIcon className='close' onClick= {closeDrawerHandler} />
                 }
+                
                 
                 <div className="vigation">
                 <Navigation />

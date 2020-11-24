@@ -1,14 +1,15 @@
 .slideNavbar {
-  //   margin-left: -130%;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  margin-right: 45%;
   ul {
     list-style: none;
 
     li {
+      margin-bottom: 15%;
+
       a {
         text-decoration: none;
-        margin-top: 100px;
+        justify-content: space-around;
       }
       a:hover {
         border-bottom: 2px green solid;
